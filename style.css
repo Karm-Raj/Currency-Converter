@@ -1,10 +1,15 @@
+:root{
+    --bodybg:#9ACBD0;
+   --conta:#ffffff;
+}
 *{
     margin: 0;
     padding: 0;
 }
+
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: rgb(235, 235, 235);
+    background-color: var(--bodybg);
 }
 main{
     text-align: center;
@@ -14,7 +19,7 @@ main{
     height: 100vh;
 }
 .container{
-    background-color: rgb(255, 255, 255);
+    background-color: var(--conta);
     /* border: 2px solid rgb(207, 207, 207); */
     /* box-shadow:1px 2px 3px gray; */
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
