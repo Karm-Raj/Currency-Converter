@@ -56,11 +56,6 @@ input, select{
 .exchenge img{
     width: 2em;
 }
-.exchenge select{
-
-
-
-}
 .select-container{
     display: flex;
     justify-content: center ;
